@@ -1,3 +1,29 @@
+# TOGGLE THEME APP 
+
+This is a simple App created in React JS.
+
+# Thought process while making the App
+
+1. Instead of having separate functions for normal and dark themes, a single state variable 
+   isDarkTheme is used to keep track of the current theme.
+   
+2. The setDarkTheme function is used to toggle the theme by flipping the value of isDarkTheme.
+
+3. The className of the main container is determined based on the value of isDarkTheme, 
+   with the dark class being added if it's a dark theme.
+   
+4. The text inside the h1 tag is determined based on the value of isDarkTheme.
+
+5. The text inside the p tag os determined based on the value of isDarkTheme.
+
+6. The onClick event handler for the button is set to handleToggleTheme to toggle the theme.
+
+# ________________________________________________________________
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
